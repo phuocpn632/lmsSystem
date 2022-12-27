@@ -31,6 +31,7 @@ export default class Child extends LightningElement {
     }
 
     handleMessage(message) {
-        this.message = message.messageToSend;
+        // this.message = message.messageToSend;
+        this.message = 'AAAAA';
     }    
 }
